@@ -1,0 +1,62 @@
+.event_list {
+  width: 100%;
+  margin: 20px auto;
+}
+.event_list button {
+  margin: 0 10px;
+  border: none;
+  outline: none;
+  letter-spacing: 3px;
+  padding: 10px;
+}
+.event_list button:hover {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: linear 0.3s;
+  padding: 10px;
+}
+.card_items {
+  margin: 20px 20px;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.inner_div {
+  width: 100%;
+  display: flex;
+  margin-bottom: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  padding: 10px;
+  justify-content: space-between;
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.inner_div img {
+  width: 200px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+.inner_div h3 {
+  text-align: center;
+}
+.btns {
+  width: 100%;
+  display: flex;
+}
+.btns button {
+  width: 100%;
+}
+@media (max-width: 1100px) {
+  .card_items {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 350px) {
+  .card_items {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0;
+  }
+}
