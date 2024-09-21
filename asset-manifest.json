@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Event_Management_App/static/css/main.20298310.css",
+    "main.js": "/Event_Management_App/static/js/main.21a3a3e9.js",
+    "index.html": "/Event_Management_App/index.html",
+    "main.20298310.css.map": "/Event_Management_App/static/css/main.20298310.css.map",
+    "main.21a3a3e9.js.map": "/Event_Management_App/static/js/main.21a3a3e9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.20298310.css",
+    "static/js/main.21a3a3e9.js"
+  ]
+}
